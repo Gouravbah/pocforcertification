@@ -1,7 +1,6 @@
 import DataTableService from "../../services/service";
 
 export const GetAction = () => async (dispatch) => {
-    debugger;
   try {
     const res = await DataTableService.dataCall();
     dispatch({
