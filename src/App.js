@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './component/home';
+import JestTest from './component/jestTest';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/jestTest' element={<JestTest />} />
         </Routes>
       </div>
     </BrowserRouter>
